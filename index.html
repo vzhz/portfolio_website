@@ -2,60 +2,71 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Veronica Hanus | Everything is Awesome</title>
+    <title>Veronica Hanus | Awesome</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href='https://fonts.googleapis.com/css?family=Changa+One|Open+Sans:400,400italic,700,700italic,800' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
     <header>
-      <a href="index.html">
+      <a href="index.html" id="logo">
         <h1>Veronica Hanus</h1>
-        <h2>Being Awesome</h2>
+        <h2>Loves Building Things</h2>
       </a>
       <nav>
         <ul>
-          <li><a href="index.html">Portfolio</a></li>
+          <li><a href="index.html" class="selected">Portfolio</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
     </header>
-    <section>
-      <ul>
-        <li>
-          <a href="img/numbers-01.jpg">
-            <img src="img/numbers-01.jpg" alt="">
-            <p>Experimentation with color and texture.</p>
-          </a>
-        </li>
-        <li>
-          <a href="img/numbers-02.jpg">
-            <img src="img/numbers-02.jpg" alt="">
-            <p>Experimentation with color and texture.</p>
-          </a>
-        </li>
-        <li>
-          <a href="img/numbers-06.jpg">
-            <img src="img/numbers-06.jpg" alt="">
-            <p>Experimentation with color and texture.</p>
-          </a>
-        </li>
-        <li>
-          <a href="img/numbers-09.jpg">
-            <img src="img/numbers-09.jpg" alt="">
-            <p>Experimentation with color and texture.</p>
-          </a>
-        </li>
-        <li>
-          <a href="img/numbers-12.jpg">
-            <img src="img/numbers-12.jpg" alt="">
-            <p>Experimentation with color and texture.</p>
-          </a>
-        </li>
-      </ul>
-    </section>
-    <footer>
-      <a href="http://twitter.com/veronica_hanus"><img src="img/twitter-wrap.png" alt="Twitter Logo">
-      <img src="img/facebook-wrap.png" alt="Facebook Logo">
-      <p>&copy; 2016 Veronica Hanus.</p>
-    </footer>
+    <div id="wrapper">
+      <section>
+        <ul id="gallery">
+          <li>
+            <a href="https://github.com/vzhz/friendly_terminal" target="_blank">
+              <img src="img/friendlyterminal_screenshot.png" alt="">
+              <img src="img/friendlyterminaldescription.png" alt="">
+              <p>Start your programming day off right with a terminal that says hello to you.</p>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/vzhz/scrabble_cheater" target="_blank">
+              <img src="img/scrabbleimage.jpg" alt="">
+              <img src="img/numbers-01.jpg" alt="">
+              <p>Surprise your friends by cheating on Scrabble and Words with Friends.</p>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/vzhz/rock_paper_scissors" target="_blank">
+              <img src="img/rockpaperscissors_image.jpg" alt="">
+              <img src="img/numbers-01.jpg" alt="">
+              <p>One-player game of rock, paper, scissors. No cheats this time!</p>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/vzhz/PGP_key_signing_script" target="_blank">
+              <img src="img/pgp_icon.png" alt="">
+              <img src="img/numbers-01.jpg" alt="">
+              <p>Want to keep your private things private but think key-signing is a pain? Do we have a tool for you!</p>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/vzhz/web_scraper_hacker_news" target="_blank">
+              <img src="img/hackernews_icon.jpg" alt="">
+              <img src="img/numbers-01.jpg" alt="">
+              <p>Search HackerNews for your programming news fix.</p>
+            </a>
+          </li>
+        </ul>
+      </section>
+      <footer>
+        <a href="http://twitter.com/veronica_hanus"><img src="img/twitter-wrap.png" alt="Twitter Logo" class="social-icon"></a>
+        <p>&copy; 2016 Veronica Hanus.</p>
+      </footer>
+    </div>
   </body>
 </html>
