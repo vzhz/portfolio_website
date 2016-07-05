@@ -197,6 +197,10 @@ PAGE: CONTACT
   background-image: url('../img/twitter.png');
 }
 
+.contact-info li.linkedin a {
+  background-image: url('../img/linkedin.png');
+}
+
 
 
 /***********************
