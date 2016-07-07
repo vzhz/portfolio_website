@@ -126,27 +126,6 @@ PAGE: PORTFOLIO
   display: block;
 }
 
-#gallery li a img:nth-child(2) {
-  visibility: hidden;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-/* mouse over link with pseudo classes */
-#gallery li a:hover img:first-child {
-  visibility: hidden;
-  filter: alpha(opacity=0); /* For IE8 and earlier */
-}
-/* #gallery li a:hover p:nth-child(2) {
-  visibility: hidden;
-  filter: alpha(opacity=0); /* For IE8 and earlier */
-/*} */
-
-#gallery li a:hover img:nth-child(2) {
-  visibility: visible;
-}
-
 #gallery li a p {
   margin: 0;
   padding: 5%;
