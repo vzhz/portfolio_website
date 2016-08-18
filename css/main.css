@@ -181,6 +181,8 @@ PAGE: CONTACT
 
 .contact-info li.linkedin a {
   background-image: url('../img/linkedin.png');
+  background-size: 12px;
+  background-position: 1%;
 }
 
 .learn-more {
