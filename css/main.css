@@ -148,6 +148,16 @@ PAGE: ABOUT
 
 
 /***********************
+PAGE: ABOUT
+************************/
+
+ul.listing {
+    display: inline-block;
+}
+/* removed padding from top of nav bar on blog pag*/
+
+
+/***********************
 PAGE: CONTACT
 ************************/
 
