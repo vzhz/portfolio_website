@@ -3,6 +3,7 @@
 		<![CDATA[ veronicahanus.com ]]>
 	</title>
 	<link href="https://vzhz.github.io/atom.xml" rel="self"/>
+	<link rel="alternate" type="text/html" href="https://vzhz.github.io/atom.xml"/>
 	<link href="https://vzhz.github.io/"/>
 	<updated>2016-11-29T18:30:02Z</updated>
 	<id>https://vzhz.github.io/</id>
@@ -20,7 +21,7 @@
 				Charging Cord Fortification with Yarn-bomb Style
 			]]>
 		</title>
-		<link href="https://vzhz.github.io/new-charger.html/"/>
+		<link href="https://vzhz.github.io/new-charger.html/" rel="alternate"/>
 		<updated>2016-11-29T18:30:02Z</updated>
 		<id>
 			https://vzhz.github.io/new-charger.html
