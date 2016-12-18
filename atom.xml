@@ -32,4 +32,20 @@
 			]]>
 		</content>
 	</entry>
+	<entry>
+		<title type="html">
+			<![CDATA[
+				Seven Days on a Bike
+			]]>
+		</title>
+		<link href="https://vzhz.github.io/blog/2015/07/10/seven-days-on-a-bike.html"/>
+		<updated>2015-07-10T18:30:02Z</updated>
+		<id>
+			https://vzhz.github.io/blog/2015/07/10/seven-days-on-a-bike.html
+		</id>
+		<!--<content type="html">
+			<![CDATA[
+			]]>
+		</content>-->
+	</entry>
 </feed>
