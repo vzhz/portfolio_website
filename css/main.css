@@ -156,6 +156,11 @@ ul.listing {
 }
 /* removed padding from top of nav bar on blog pag*/
 
+li {
+    margin: 10px 0;
+}
+/* change the spacing between items in a ul */
+
 
 /***********************
 PAGE: CONTACT
