@@ -156,11 +156,15 @@ ul.listing {
 }
 /* removed padding from top of nav bar on blog pag*/
 
-li {
+.big-vertical-margin {
     margin: 10px 0;
 }
-/* change the spacing between items in a ul */
+/* change the spacing between objects to be more than normal line spacing but less than a full empty line */
 
+.text-red {
+  color: red;
+}
+/* changes text to red, demo for how to combine classes */
 
 /***********************
 PAGE: CONTACT
