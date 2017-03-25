@@ -85,6 +85,23 @@ nav a {
   padding: 15px 10px;
 }
 
+ul.listing {
+    display: inline-block;
+}
+/* removed padding from top of nav bar on blog pag*/
+
+.secondary-nav {
+  font-size: 13.2px;
+  margin-top: 22px;
+  margin-right: 0px;
+  margin-left: 0px;
+  letter-spacing: 2px;
+}
+/* !important overriddes everything else but a sub important */
+.secondary-nav a
+{
+  color: #edebeb !important;
+}
 /***********************
 FOOTER
 ************************/
@@ -148,13 +165,8 @@ PAGE: ABOUT
 
 
 /***********************
-PAGE: ABOUT
+PAGE: BLOG
 ************************/
-
-ul.listing {
-    display: inline-block;
-}
-/* removed padding from top of nav bar on blog pag*/
 
 .big-vertical-margin {
     margin: 10px 0;
@@ -165,6 +177,31 @@ ul.listing {
   color: red;
 }
 /* changes text to red, demo for how to combine classes */
+
+.rc-scout {
+  display: block;
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+.rc-scout__text {
+  display: block;
+  padding: 0;
+  border: 0;
+  margin: 0;
+  height: 100%;
+  font-size: 100%;
+}
+.rc-scout__link:link, .rc-scout__link:visited {
+  color: #61ae24;
+  text-decoration: underline;
+}
+.rc-scout__link:hover, .rc-scout__link: active {
+  color: #4e8b1d;
+}
+
+/* rc scout widget/ad styling stolen from Nick and not used so far */
+
 
 /***********************
 PAGE: CONTACT
