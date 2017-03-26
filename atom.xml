@@ -3,7 +3,7 @@
 		<![CDATA[ veronicahanus.com ]]>
 	</title>
 	<link href="https://raw.githubusercontent.com/vzhz/vzhz.github.io/master/atom.xml" rel="self"/>
-	<link rel="alternate" type="atom+xml" href="https://raw.githubusercontent.com/vzhz/vzhz.github.io/master/atom.xml"/>
+	<link rel="alternate" type="text/html" href="https://raw.githubusercontent.com/vzhz/vzhz.github.io/master/atom.xml"/>
 	<link href="https://vzhz.github.io"/>
 	<updated>2016-11-29T18:30:02Z</updated>
 	<id>https://vzhz.github.io/</id>
@@ -17,9 +17,7 @@
 	</author>
 	<entry>
 		<title type="html">
-			<![CDATA[
-				Charging Cord Fortification with Yarn-bomb Style
-			]]>
+			<![CDATA[Charging Cord Fortification with Yarn-bomb Style]]>
 		</title>
 		<link href="https://vzhz.github.io/blog/2016/11/29/new-charger.html"/>
 		<updated>2016-11-29T18:30:02Z</updated>
@@ -30,9 +28,18 @@
 	</entry>
 	<entry>
 		<title type="html">
-			<![CDATA[
-				Seven Days on a Bike
-			]]>
+			<![CDATA[Writing READMEs that will make future you happy]]>
+		</title>
+		<link href="https://vzhz.github.io/blog/2017/03/06/writing-readmes.html"/>
+		<updated>2017-03-27T18:30:02Z</updated>
+		<id>https://vzhz.github.io/blog/2016/11/29/new-charger.html</id>
+		<!--<content type="html">
+			<![CDATA[]]>
+		</content>-->
+	</entry>
+	<entry>
+		<title type="html">
+			<![CDATA[Seven Days on a Bike]]>
 		</title>
 		<link href="https://vzhz.github.io/blog/2015/07/10/seven-days-on-a-bike.html"/>
 		<updated>2015-07-10T18:30:02Z</updated>
