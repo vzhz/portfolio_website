@@ -2,8 +2,8 @@
 	<title>
 		<![CDATA[ veronicahanus.com ]]>
 	</title>
-	<link href="https://vzhz.github.io/atom.xml" rel="self"/>
-	<link rel="alternate" type="text/html" href="https://vzhz.github.io/atom.xml"/>
+	<link href="https://raw.githubusercontent.com/vzhz/vzhz.github.io/master/atom.xml" rel="self"/>
+	<link rel="alternate" type="atom+xml" href="https://raw.githubusercontent.com/vzhz/vzhz.github.io/master/atom.xml"/>
 	<link href="https://vzhz.github.io"/>
 	<updated>2016-11-29T18:30:02Z</updated>
 	<id>https://vzhz.github.io/</id>
@@ -23,14 +23,10 @@
 		</title>
 		<link href="https://vzhz.github.io/blog/2016/11/29/new-charger.html"/>
 		<updated>2016-11-29T18:30:02Z</updated>
-		<id>
-			https://vzhz.github.io/blog/2016/11/29/new-charger.html
-		</id>
-		<content type="html">
-			<![CDATA[
-				<p>A year ago, I bought my first little MacBook Air + charger on eBay, only to find when it arrived, the charger had a gash that had been carefully folded behind the charging box for the picture. This was kind of a bummer, but I needed a charger and this worked. I knew the rubber housing on Mac chargers splits easily, so I promised myself I would be gentle with it, and we went about our merry way.</p> <p>Six months (and many layers of electrical tape) later, things had gotten a little dramatic. Our relationship was stretched thin, our nerves raw, etc. You get the idea.</p> <p>When I got my new charger (new this time!), I decided things would be different. I read about the cord's failure points and noticed what my long-time Mac-having friends did to reinforce their chargers. I found <a href="https://www.youtube.com/watch?v=VCIo8xGTUX0/" target="_blank">this very lovely video</a>, pulled apart the nearest pen, and turned it into a "most-often-pulled-end" reinforcer.</p> <p><center><img src="https://github.com/vzhz/vzhz.github.io/blob/master/blog_pics/20161129_new_charger/pen_spring_charger.jpg?raw=true" width="400" height="220" alt="my charging cable with the spring from a pen wrapped around the end of the cord"></center></p> <p>I wanted to avoid the kinks and eventual splits that seem inevitable in the "charger slinked across a crowded floor in a coworking space" life that my charger leads, so I decided to give it a covering with a little squish and, of course, found some inspirationally-colorful yarn-'plosion street art.</p> <p><center><img src="https://github.com/vzhz/vzhz.github.io/blob/master/blog_pics/20161129_new_charger/yarn_flower.jpg?raw=true" width="400" height="220" alt="yarn weaved into chain link fence to make a large flower of pink and purple"></center></p> <p>The colors I settled on (we can't all be a giant, yarn-bombed fence flower, can we?)</p> <p><center><img src="https://github.com/vzhz/vzhz.github.io/blob/master/blog_pics/20161129_new_charger/colors.jpg?raw=true" width="400" height="220" alt="beautiful pink and purple yarn"></center></p> <p>I was all ready to make my giant friendship bracelet/snuggie for my charging cable. I decided to do <a href="http://friendship-bracelets.net/tutorial.php?id=66#h2000/" target="_blank">a forward knot</a>, because, well, it reminded me of my friendship bracelet days. Also, I expected always going one direction with the yarn would mean I wouldn’t get too tangled, and I liked that the twist would give my cord a little padding.</p> <p>The sight of me with charger and yarn across my lap brought the people in my train car surprisingly little entertainment*, but working on it made me smile and gave me time to think during the four or so commute-hours I estimate I spent working on this. Now I have a super-protected, super-colorful, super-easy-to-identify electron-transferring best buddy.</p> <p><center><img src="https://github.com/vzhz/vzhz.github.io/blob/master/blog_pics/20161129_new_charger/on_the_train.jpg?raw=true" width="400" height="220" alt="partly covered charger and balled yarn across my lap while I sit on the subway"></center></p> <p>That's how I protected my charging cable, and I encourage you to find a charger fortification that makes your day brighter as well. &#x2661 &#x2661 &#x2661</p> <p>*As my project got further along, I did catch a few sideways glances. The sight of me wrapping the finished end around my shoulders like a multicolored electronic snake-shawl may have been a bit much.</p>
-			]]>
-		</content>
+		<id>https://vzhz.github.io/blog/2016/11/29/new-charger.html</id>
+		<!--<content type="html">
+			<![CDATA[]]>
+		</content>-->
 	</entry>
 	<entry>
 		<title type="html">
@@ -40,9 +36,7 @@
 		</title>
 		<link href="https://vzhz.github.io/blog/2015/07/10/seven-days-on-a-bike.html"/>
 		<updated>2015-07-10T18:30:02Z</updated>
-		<id>
-			https://vzhz.github.io/blog/2015/07/10/seven-days-on-a-bike.html
-		</id>
+		<id>https://vzhz.github.io/blog/2015/07/10/seven-days-on-a-bike.html</id>
 		<!--<content type="html">
 			<![CDATA[
 			]]>
