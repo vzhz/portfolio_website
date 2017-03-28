@@ -4,12 +4,12 @@
     ************************/
 
     #primary {
-        width: 50%;
+        width: 65%;
         float: right;
     }
 
     #secondary {
-        width: 40%;
+        width: 30%;
         float: left;
     }
     /***********************
