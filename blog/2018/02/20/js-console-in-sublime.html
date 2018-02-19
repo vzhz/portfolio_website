@@ -37,16 +37,16 @@
     <div id="wrapper">
       <section>
         <h3>Make a JS Console in Your Editor & Avoid Context-switching</h3>
-        <h5>Feburary 20, 2018</h5>
+        <h5>February 20, 2018</h5>
 
         <br/>
 
         <p>
-          Web development has its fair share of challenges for everyone, with its ever-changing frameworks and <a href="https://www.youtube.com/watch?v=FKTxC9pl-WM" target="_blank">seemingingly never-ending list of tools you "need" to know</a>. But if you're working on a 11" Macbook Air, as I do, you have an even more immediate problem: Even finding the screen "real estate" to do web development can be a challenge.
+          Web development has its fair share of challenges for everyone, with its ever-changing frameworks and <a href="https://www.youtube.com/watch?v=FKTxC9pl-WM" target="_blank">seemingingly never-ending list of tools you "need" to know</a>. But if you're working on a 11" Macbook Air, as I do, you have an even more immediate problem: Finding the screen "real estate" to do web development.
         </p> 
         
         <p class="big-vertical-margin">
-          For any given change in a project containing HTML, CSS, and JS, my workflow (after I link my files) would go something like 
+          For any given change in a project containing HTML, CSS, and JS, my workflow (after I link my files) would go something like: 
           <ol>
             <li><strong>Arrange</strong> my HTML, JS, and browser windows so I can see at least a corner of each for ease of clicking back and forth</li>
             <li><strong>Review</strong> HTML file, <strong>determine</strong> what JS is needed</li>
@@ -55,19 +55,19 @@
             <li><strong>Switch</strong> back to Javascript to <strong>fix my errors or make additions</strong></li>
           </ol>
           <!-- should I show them a screen shot of how gross this looks? -->
-          It's worth noting how few of the above steps involves the actual production or manipulation of code - there has to be a better way. 
+          It's worth noting how few of the above steps involves the actual production or manipulation of code. Is there a better way? 
         </p>
 
         <p>
-          I can make this more efficient with the <a href="https://support.apple.com/en-us/HT204895" target="_blank">Mac's trackpad gestures</a> that allow you to view thumbnails of all open windows or use multiple desktops, but I really like having all my windows in front of me and I've found that even the context switching of the gestures solutions can be really taxing.
+          As you probably guessed, there is indeed a better way. I can make my workflow more efficient with the <a href="https://support.apple.com/en-us/HT204895" target="_blank">Mac's trackpad gestures</a> to view thumbnails of all open windows or use multiple desktops. Although solution would improve my workflow, I really like having all my windows in front of me and I've found that even the context switching of the gestures taxing.
         </p>
 
         <p>
-          I had already learned I could <a href="https://docs.python.org/2/library/simplehttpserver.html" target="_blank">fire up a local Python server to allow me to preview my projects</a> before I committed them, effectively ending my commit, view, modify, commit cycle and its resulting messy commit history. Given this experience, I searched for a way to run my Javascript code without using the browser.
+          I had already learned I could <a href="https://docs.python.org/2/library/simplehttpserver.html" target="_blank">fire up a local Python server to allow me to preview my projects</a> before I committed them. This effectively ended my commit, view, modify, commit cycle and the messy commit history it leaves behind. Given this experience, I searched for a way to run my Javascript code without using the browser.
         </p>
 
         <p>
-          It turns out this can be done within a Sublime file - the perfect solution for my cramped screen since I will need to have the editor open already.
+          It turns out this can be done within a Sublime file - the perfect solution for my cramped screen.
         </p>
 
         <!--video or screenshot of it doing it's thing-->
@@ -85,13 +85,13 @@
         </p>
 
         <p>
-          To use this console, you need to create a build system for Sublime, since there isn't a default build. In Sublime's Tools dropdown, can select "Build System" and then "New Build System," since we are creating our own.
+          To use this console, you need to create a build system for Sublime, since there isn't a default build. In Sublime's Tools dropdown, can select "Build System" and then "New Build System."
         </p>
 
         <p>
           Sublime will open a new editor tab with a template for the information you need to enter. 
           <!-- picture with arrows saying what each bit is -->
-          It's interesting to see what the file is doing, but not necessary to get your console working. Once you, replace the contents of your Sublime template file with the following, you'll be ready to save your file as <code>JSC.sublime-build</code> in the <code>User</code> folder.
+          It's interesting to see what the file is doing, but not necessarily to get your console working. Once you replace the contents of your Sublime template file with the following, you'll be ready to save your file as <code>JSC.sublime-build</code> in the <code>User</code> folder.
           <!--maybe highlight the file name with "background-color" and bold it later -->
           <pre>
             <code>
@@ -106,7 +106,7 @@
         </p>
 
         <p>
-          To use, you'll need to open the Javascript file you are editing with Sublime, select "Build System " replace all your <code>console.log()</code> statements with <code>debug()</code> statements. <!-- explain why this is --> Instead of staining your eyeballs looking for all your <code>console.log()</code> statements, use <a href="http://docs.sublimetext.info/en/latest/search_and_replace/search_and_replace.html" target="_blank">search and replace</a>. Once you "Find all" you can delete all the <code>console.log()</code> statements and replace with <code>debug()</code>. Then you are ready to build the file with <code>Cmd+B</code> to run your code! 
+          To use, you'll need to open the Javascript file you are editing with Sublime, select "Build System," and replace all your <code>console.log()</code> statements with <code>debug()</code> statements. <!-- explain why this is --> Instead of staining your eyeballs looking for all your <code>console.log()</code> statements, use <a href="http://docs.sublimetext.info/en/latest/search_and_replace/search_and_replace.html" target="_blank">search and replace</a>. Once you "Find all" you can delete all the <code>console.log()</code> statements and replace with <code>debug()</code>. Then you are ready to build the file with <code>Cmd+B</code> to run your code! 
         </p>
 
         <p>
@@ -121,7 +121,7 @@
         </p>
 
         <p>
-          Congratulate yourself on never having to window-swangle on a small screen again!
+          Congratulate yourself on never having to window-wrangle on a small screen again!
         </p>
       </section>
       <div id="disqus_thread"></div>
