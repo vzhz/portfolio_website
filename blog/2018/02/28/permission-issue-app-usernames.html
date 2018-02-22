@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:fb="http://ogp.me/ns/fb#">
+  <head>
+    <meta charset="utf-8">
+    <link rel="icon" href="../../../../img/favicon.png" type="image/x-icon">
+    <meta property="og:image" content="img/veronica.jpg" />
+    <title>What a Permissions Issue Taught Me about Personalizing Apps</title>
+    <link rel="alternate" type="application/rss+xml" title="Very Veronica Blog"
+      href="https://vzhz.github.io/atom.xml">
+    <link rel="stylesheet" href="../../../../css/normalize.css">
+    <link href='https://fonts.googleapis.com/css?family=Changa+One|Open+Sans:300,400,400italic,700,700italic,800' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="../../../../css/main.css">
+    <link rel="stylesheet" href="../../../../css/responsive.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <header>
+      <a href="index.html" id="logo">
+        <h1>Veronica Hanus</h1>
+        <h2>{ learning and writing }</h2>
+      </a>
+      <nav>
+        <ul>
+          <li><a href="../../../../index.html">Portfolio</a></li>
+          <li><a href="../../../../blog.html" class="selected">Blog</a></li>
+          <li><a href="../../../../about.html">About</a></li>
+          <li><a href="../../../../contact.html">Contact</a></li>
+        </ul>
+        <ul class="secondary-nav">
+          <li><a href="/atom.xml">{ RSS }</a></li>
+          <li><a href="https://www.recurse-scout.com/scout/click?t=82fac49a5eb68463cf2e11141a7d1e1e" target="_blank">{ Join the Recurse Center! }</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div id="wrapper">
+      <section>
+        <h3>What a Permissions Issue Taught Me about Personalizing Apps</h3>
+        <h5>Feburary 28, 2018</h5>
+
+        <br/>
+
+        <p>
+          Some time ago, I made <a href="https://github.com/vzhz/friendly_terminal" target="_blank">a terminal app</a> that pulls randomly from a list of encouraging phrases I'd written and prints one to my terminal when I open it in the morning. It was a bit of encouragement for my future self.
+        </p>
+
+        <p>
+          <center><a href="https://github.com/vzhz/friendly_terminal/blob/master/friendly_terminal_preview.png"><img border="0" alt="screenshot of the output of my terminal application. At the top of the terminal screen is the encouraging output 'Veronica, what fabulous thing are you making today?'" src="" width="250" height="275"></a><br/><h5>My terminal app gave me encouragement every morning and even knew my name!</h5></center>
+        </p>
+          <!--make this point to the raw version of the file after you upload it to Github-->
+        <p>
+          This is the story of a choice I made when building it ended up causing a massive pain in my neck. The app consists of a set number of phrases, one of which is selected at random and printed to the terminal by a Python script that is run from your <code>.bash_profile</code> when the terminal is opened.
+        </p>
+
+        <p>
+          I had completely forgotten about this app when I was attempting to install the package manager Homebrew and my command line started insisting that I, from my Admin account, was not an admin. This was pretty puzzling since I have no account on my computer but Admin and Guest. After a great deal of Googling and <code>crtl+F</code>-ing (I even opened and searched the raw version of the Homebrew install for usr and USER), I remembered that I had set my <code>USER</code> to "veronica" in my .bash-profile so my terminal would print my name in its nicities. 
+        </p>
+
+        <p>
+          That line is now safely commented out and I am able to "brew" my way to other things. My plan is eventually to go back and do what I would have liked to had the foresight to do in the first place: Set the <code>USER</code> to a variable in the .bash-profile instead of hard-coding it.
+        </p>
+
+      </section>
+      <div id="disqus_thread"></div>
+      <script>
+
+      /* *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+      *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+
+      var disqus_config = function () {
+      this.page.url ="";  // Replace PAGE_URL with your page's canonical URL variable
+      this.page.identifier = "00000"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable ADD ONE FOR EACH NEW POST
+      };
+      (function() { // DON'T EDIT BELOW THIS LINE
+      var d = document, s = d.createElement('script');
+      s.src = 'https://https-vzhz-github-io-blog-html.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+      })();
+      </script>
+      <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+      <footer>
+        <a href="http://twitter.com/veronica_hanus"><img src="../../../../img/twitter-wrap.png" alt="Twitter Logo" class="social-icon"></a>
+        <a href="https://www.linkedin.com/in/veronicahanus"><img src="../../../../img/linkedin-wrap.png" alt="Twitter Logo" class="social-icon"></a>
+        <p>&copy; & &#x2661 2017 Veronica Hanus.</p>
+      </footer>
+    </div>
+  </body>
+</html>
