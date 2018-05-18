@@ -308,6 +308,10 @@ a {
   color: #6ab47b;
 }
 
+li a {
+  color: #6c8e73
+}
+
 /* nav links */
 nav a, nav a:visited {
   color: #73e600;
