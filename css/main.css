@@ -305,22 +305,40 @@ h2 {
 
 /* links */
 a {
-  color: #6ab47b;
+  color: #32673f;
 }
+/* past: #6ab47b (grey) */
+
 
 li a {
   color: #6c8e73
 }
 
+
 /* nav links */
+
+/* disable visited */
+/*
 nav a, nav a:visited {
   color: #73e600;
 }
+*/
 
-/* selected nav link */
-nav a.selected, nav a:hover {
+nav a {
   color: #32673f;
 }
 
+/* selected nav link */
+nav a.selected {
+  border-bottom: 2px solid ;
+  display: inline-block;
+  line-height: 0.2;
+  color: #32673f;
+}
 
-/* this is a comment */
+/* disable hover */
+/* 
+nav a:hover {
+  color: #32673f;
+}
+*/
