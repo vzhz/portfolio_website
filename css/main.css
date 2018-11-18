@@ -148,7 +148,7 @@ PAGE: PORTFOLIO
 
 #gallery li a p {
   margin: 0;
-  padding: 5%;
+  /*padding: 5%; maybe for responsive*/
   font-size: 0.85em;
   color: #777;
 }
