@@ -146,13 +146,32 @@ PAGE: PORTFOLIO
   display: block;
 }
 
-#gallery li a p {
+#gallery li section div.right-half article p {
   margin: 0;
   /*padding: 5%; maybe for responsive*/
-  font-size: 0.85em;
+  font-size: 1.2em;
   color: #777;
+  padding: 0.8em 1.2em 0.8em 0.1em;
 }
 
+#gallery li section div.right-half article p.project-title {
+	padding: 0.3em 0em 0em 0em;
+	margin: 0;
+	font-size: 1.4em;
+	font-weight: 600;
+}
+
+.container-projects {
+	display: flex;
+}
+
+.left-half {
+	flex: 1;
+}
+
+.right-half{
+	flex: 1;
+}
 
 
 /***********************
