@@ -176,11 +176,11 @@ PAGE: PORTFOLIO
 }
 
 .left-half {
-	flex: 1;
+	flex: 0.75;
 }
 
 .right-half{
-	flex: 1;
+	flex: 1.25;
 }
 
 
