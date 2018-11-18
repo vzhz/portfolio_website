@@ -17,7 +17,8 @@ a {
 }
 
 img {
-  max-width: 100%;
+  max-width: 60%;
+  padding: 10px 10px;
 }
 
 h3 {
@@ -91,6 +92,7 @@ ul.listing {
 /* removed padding from top of nav bar on blog pag*/
 
 .secondary-nav {
+  float: right;
   font-size: 13.2px;
   margin-top: 22px;
   margin-right: 0px;
@@ -132,8 +134,9 @@ PAGE: PORTFOLIO
 
 #gallery li {
   float: left;
-  width: 45%;
-  margin: 2.5%;
+  width: 80%;
+  min-width: 288px;
+  margin: 2.5% 20% 2.5% 2.5%;
   background-color: #f5f5f5;
   color: #bdc3c7;
 }

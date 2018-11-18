@@ -24,7 +24,7 @@
     ************************/
 
     #gallery li {
-        width: 28.3333333%;
+        width: 80%;
     }
 
     #gallery li:nth-child(4n) {
