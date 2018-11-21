@@ -78,4 +78,16 @@
         margin-bottom: 60px;
     }
 
+    /***********************
+    PAGE: PORTFOLIO
+    ************************/
+
+    a.btn-link {
+        width: 15%;
+    }
+
+    .btn-skills{
+        padding: 8px 2px
+    }
+
 }
