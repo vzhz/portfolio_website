@@ -17,7 +17,7 @@ a {
 }
 
 img {
-  max-width: 60%;
+  max-width: 100%;
   padding: 10px 10px;
 }
 
@@ -213,8 +213,10 @@ a.btn-link:hover {
 /* gray project skills buttons */
 .btn-skills {
     border-color: #e7e7e7;
+    cursor: default;
     background: #e7e7e7;
     color: #777;
+    border-radius: 10px 10px 0px 0px;
 }
 
 /* no hover because doesn't click
