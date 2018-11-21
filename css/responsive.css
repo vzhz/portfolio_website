@@ -32,7 +32,7 @@
     }
 
     #gallery li section div.left-half {
-        display: none;
+        display: block;
     }
 
     a.btn-link {
@@ -40,7 +40,7 @@
     }
 
     .btn-skills {
-        display: none;
+        display: inline-block;
     }
 
     /***********************
@@ -95,11 +95,12 @@
     ************************/
 
     a.btn-link {
-        width: 15%;
+        width: 20%;
+        margin: 5px 10px 10px 0px
     }
 
     .btn-skills{
-        padding: 8px 2px
+        padding: 10px 18px
     }
 
 }
