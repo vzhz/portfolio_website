@@ -143,7 +143,7 @@ PAGE: PORTFOLIO
 
 #gallery li a {
   position: relative;
-  display: block;
+  display: inline-block;
 }
 
 #gallery li section div.right-half article p {
