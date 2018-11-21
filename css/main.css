@@ -18,6 +18,7 @@ a {
 
 img {
   max-width: 100%;
+  padding: 10px 10px;
 }
 
 h3 {
@@ -91,6 +92,7 @@ ul.listing {
 /* removed padding from top of nav bar on blog pag*/
 
 .secondary-nav {
+  float: right;
   font-size: 13.2px;
   margin-top: 22px;
   margin-right: 0px;
@@ -132,25 +134,103 @@ PAGE: PORTFOLIO
 
 #gallery li {
   float: left;
-  width: 45%;
-  margin: 2.5%;
+  width: 80%;
+  min-width: 288px;
+  margin: 2.5% 20% 2.5% 2.5%;
   background-color: #f5f5f5;
   color: #bdc3c7;
 }
 
 #gallery li a {
   position: relative;
-  display: block;
+  display: inline-block;
 }
 
-#gallery li a p {
+#gallery li section div.right-half article p {
   margin: 0;
-  padding: 5%;
-  font-size: 0.85em;
+  /*padding: 5%; maybe for responsive*/
+  font-size: 1.2em;
   color: #777;
+  padding: 0.3em 1.2em 1.9em 0.1em;
+}
+
+#gallery li section div.right-half article ul.project-links {
+  float: left; 
+  text-decoration: none; 
+  padding: 0px;
+  list-style-type: none;
+  text-align: center;
+  clear: both;
 }
 
 
+#gallery li section div.right-half article p.project-title {
+	padding: 0.3em 0em 0em 0em;
+	margin: 0;
+	font-size: 1.4em;
+	font-weight: 600;
+}
+
+.container-projects {
+	display: flex;
+}
+
+.left-half {
+	flex: 0.75;
+  margin: 0px 15px 0px 0px;
+  display: none;
+}
+
+.right-half{
+	flex: 1.25;
+}
+
+/* project buttons */
+.btn {
+    border: 1px;
+    padding: 8px 18px;
+    font-size: 1.2em;
+    border-radius: 70px;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+/* blue project link buttons */
+a.btn-link {
+    width: 20%;
+    min-width: 50px;
+    border-color: #2196F3;
+    background: #CADCCD;
+    color: #777
+    cursor: pointer;
+    margin: 5px 5px 5px 0px;
+    padding: 5px 8px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+a.btn-link:hover {
+    background: #6ab47b;
+    color: white;
+}
+
+
+/* gray project skills buttons */
+.btn-skills {
+    border-color: #e7e7e7;
+    cursor: default;
+    background: #e7e7e7;
+    color: #777;
+    border-radius: 10px 10px 0px 0px;
+    padding: 10px 18px;
+    display: none;
+}
+
+/* no hover because doesn't click
+.default:hover {
+    background: #e7e7e7;
+}
+*/
 
 /***********************
 PAGE: ABOUT

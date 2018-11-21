@@ -24,11 +24,23 @@
     ************************/
 
     #gallery li {
-        width: 28.3333333%;
+        width: 80%;
     }
 
     #gallery li:nth-child(4n) {
         clear: left;
+    }
+
+    #gallery li section div.left-half {
+        display: block;
+    }
+
+    a.btn-link {
+        width: 15%;
+    }
+
+    .btn-skills {
+        display: inline-block;
     }
 
     /***********************
@@ -76,6 +88,19 @@
     header {
         border-bottom: 5px solid #599a68;
         margin-bottom: 60px;
+    }
+
+    /***********************
+    PAGE: PORTFOLIO
+    ************************/
+
+    a.btn-link {
+        width: 20%;
+        margin: 5px 10px 10px 0px
+    }
+
+    .btn-skills{
+        padding: 10px 18px
     }
 
 }
