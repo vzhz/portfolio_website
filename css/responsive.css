@@ -31,6 +31,18 @@
         clear: left;
     }
 
+    #gallery li section div.left-half {
+        display: none;
+    }
+
+    a.btn-link {
+        width: 15%;
+    }
+
+    .btn-skills {
+        display: none;
+    }
+
     /***********************
     PAGE: ABOUT
     ************************/
