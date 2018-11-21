@@ -177,6 +177,7 @@ PAGE: PORTFOLIO
 
 .left-half {
 	flex: 0.75;
+  margin: 0px 15px 0px 0px;
 }
 
 .right-half{
