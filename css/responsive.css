@@ -103,4 +103,12 @@
         padding: 10px 10px
     }
 
+    /***********************
+    PAGE: TALKS
+    ************************/
+
+    .largeimage {
+      max-height: 500px;
+    }
+
 }
