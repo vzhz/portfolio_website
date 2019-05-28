@@ -258,6 +258,15 @@ PAGE: SPEAKING
   margin-bottom: 5%;
 }
 
+.smallimage {
+  display: block;
+  max-width: 450px;
+  max-height: 450px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5%;
+}
+
 
 /***********************
 PAGE: BLOG
