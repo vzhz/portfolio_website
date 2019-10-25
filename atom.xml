@@ -16,6 +16,102 @@
 	</author>
 	<entry>
 		<title type="html">
+			<![CDATA[Finding the Talk Inside]]>
+		</title>
+		<link href="http://veronicahanus.com/blog/2019/09/30/talk-inside.html"/>
+		<updated>2019-09-30T18:30:02Z</updated>
+		<id>http://veronicahanus.com/blog/2019/09/30/talk-inside.html</id>
+		<description>Take the first step to conference speaking with this exercise.</description>
+		<content type="html">
+			<![CDATA[
+		<p>
+         Getting started speaking can be hard! First, you have to convince yourself that you have something to talk about… and a lot of folks get stuck right there! If you find yourself in this position, this post is for you!
+        </p>
+
+        <h5>Getting the ideas out</h5>
+        <p>
+          Public speaking is one of the most common fears (I was surprised to learn it ranked right behind the fear of death!) and the only way to nudge yourself towards comfort is to start. In this post, I share my method for topic brainstorming. Only you can can make it <em>yours</em> so, please, do whatever helps you turn off your self-doubt filter and put your ideas onto paper. 
+        </p>
+
+        <p>
+          Gather a few folks who are interested in speaking but are stuck at “but I have nothing to say!” for an exercise. Tell them they will be writing as many possible answers for each of several questions, spending 90 seconds on each question and pausing to wait for the group to continue together. Being timed tends to cause us to filter our ideas less so each person will end with topics they might not have come up with if they were trying to “weed out” as they go along.
+        </p>
+
+        <p>
+          Here's my list of questions:
+          <ul>
+            <li>Things that I know about</li>
+            <li>Things that I want to learn about</li>
+            <li>Things that I am afraid of</li>
+            <li>What are some practices that you wish other people did?</li>
+            <li>What practices + tips do you wish you could have told your past self?</li>
+            <li>What is an interesting bug that you've run into that surprised you or taught you something?</li>
+            <li>What are areas that you have expertise in?</li>
+            <li>What resources were helpful to me as I was learning?</li>
+          </ul>
+          In case you’d like to prepare a printed handout for each participant, <a href="http://veronicahanus.com/blog/2019/09/30/talk-idea-worksheet.pdf">here is a pdf</a> you are welcome to print.
+        </p>
+
+        <h5>Get group feedback</h5>
+        <p>
+         When you reach the end of the list, group members swap papers and mark all the ideas they would like to learn more about. Swap as many times as you’d like and if the group is interested, ask folks to elaborate on their selections, either to the group or the partner they reviewed for (in quieter groups, sharing feedback between partners is helpful but sharing with the group allows all to benefit). You’ll quickly see how interesting your ideas are and will likely hear some helpful suggestions to the tune of “I’d especially like to hear about this aspect of this topic.”
+        </p>
+
+        <p>
+          A few pieces of group feedback are especially helpful to participants: 
+          <ul>
+            <li>Any topics you would especially love to hear about?</li>
+            <li>Do you see connections or themes in the listed topics?</li>
+            <li>Is there a particular “framing” of the topic that you imagine?</li>
+          </ul>
+          I’ve found that this is usually best given in a wrap-up discussion to the group. 
+        </p>
+
+        <center>
+          <img src="http://veronicahanus.com/blog/2019/09/30/ideasheet-example.jpg" width="800" height="440" alt="a worksheet divided into eight segments has the result of a topic brainstorm session">
+          <p>The best part: Everyone goes home with a sheet of ideas.</p>
+        </center>
+
+        <h5>Admire your work</h5>
+        <p>
+          This exercise helps build some very important muscles! You’ll become a successful speaker much faster if you embrace the vulnerability and don’t give into the temptation to undersell your ideas, either to yourself or others! It is common, when asking for help, for folks to share their (often fantastic) idea and then immediately hedge with “oh but I’m not sure it will work”, “sorry to bother you”, etc. One reason this exercise is helpful is that the group offers a good dose of affirmation before you can talk yourself out of your best ideas! 
+        </p>
+
+        <p>
+          Folks interested in another version of this exercise <a href="https://lucybain.com/blog/2016/conference-proposal-ideas/">can find one here</a>. 
+        </p>
+
+        <p>
+          Hope you enjoy and if you have any thoughts feel free to comment at the bottom or reach out via <a href="https://twitter.com/intent/tweet?screen_name=veronica_hanus">twitter</a> or <a href="mailto:vehanus@gmail.com">email</a>.
+        </p>
+
+        <h5>The TLDR</h5>
+        <p>
+          Two years ago, I was staring at an empty page labeled “Talk ideas” at the top. Like many, I wanted to speak but was pretty sure I would never be able to pick a topic that would give me the chance to be selected. This year, I’ve shared three talks at 18 conferences. There was a lot to learn along the way but the first, most difficult, and most important step was to realize that I had experiences and knowledge worth sharing and that, yes, this knowledge could be moulded into a 30 minute brainshare that people would want to actually hear.
+        </p>
+
+        <p>
+          <em>
+            <ul>
+              <li>
+                Ned Batchelder of Boston Python, who is known, among other fabulousness, for “pulling out the talk inside” by asking questions that bring people closer to their talk topic. I hung around Boston Python from 2012-2014 and appreciated the monthly reminder that we could/should all be up there speaking.
+              </li>
+              <li>
+                Gwen Weston who hosted a workshop that included a version of this exercise at the Recurse Center, where I was introduced to it. Props also to Lucy Brain, who blogged about a similar exercise. 
+              </li>
+              <li>
+                Attendees of the “Getting Started Speaking” Openspaces I’ve headed (PyCon US, DevOpsDays Chicago, and DevOpsDays Buffalo). Just like many of us hesitate to speak publically, I often need to talk myself into writing so if you like this post, you have these folks to thank. Yay to you all!
+              </li>
+            </ul>
+          </em>
+        </p>
+
+        		]]>
+		</content>
+	</entry>
+
+	<entry>
+		<title type="html">
 			<![CDATA[How to Survive Conference Speaking & Travel]]>
 		</title>
 		<link href="http://veronicahanus.com/blog/2019/09/02/conference-speaking-lessons.html"/>
@@ -117,15 +213,101 @@
 	</entry>
 	<entry>
 		<title type="html">
-			<![CDATA[Writing READMEs that will make future you happy]]>
+			<![CDATA[Six Lessons from My Conference Marathon]]>
 		</title>
-		<link href="https://vzhz.github.io/blog/2017/03/06/writing-readmes.html"/>
-		<updated>2017-03-25T18:30:02Z</updated>
-		<id>https://vzhz.github.io/blog/2017/03/06/writing-readmes.html</id>
+		<link href="http://veronicahanus.com/blog/2018/06/06/conference-lessons.html"/>
+		<updated>2018-06-06T18:30:02Z</updated>
+		<id>http://veronicahanus.com/blog/2018/06/06/conference-lessons.html</id>
+		<content type="html">
+			<![CDATA[<p>
+          I recently participated in (including presenting at!) three conferences in the course of three weeks, and anyone who has attended even one will tell you that getting the most out of a conference experience requires planning and self-knowledge. Set yourself up to come back to your work refreshed and with some new ideas to try out, a handful of business cards, (always) a tote-bag of swag t-shirts, and zero regrets. 
+        </p>
+
+        <h5>Optimize for happiness at your next conference</h5>
+        <p>
+          Attending conferences is by far one of the best ways to meet people in your field and be introduced to concepts that you may not see in your daily work. I try to be efficient, and (downside to perfectionism) this can make decision-making difficult. I’ve found, in situations with many good choices, it’s helpful to make the choice that I expect I will regret the least. This is my “golden rule” of conference decision-making.
+        </p>
+
+        <h5>1. Define your own goals</h5>
+        <p>
+          When every choice you make means missing something else, it can be really helpful to set your own goals ahead of time. For example, the first time I attended PyCon, I spent most of my time attending talks and sessions. I only wandered onto the expo floor after I learned that some folks had I gotten O'Reilly coloring books, and, no, I had not been fast enough to get one of my own. 
+        </p>
+
+        <p>
+          This year, I decided to attend only a small number of sessions, because now I knew I would be almost as happy seeing them online. Instead, I spent most of my time talking to people, some of whom I now consider friends. I felt I had “conferenced” to my fullest each time, and I was only able to do that because I had started the week with a plan for what I would compromise on and what I would prioritize. I still chuckle to myself when I remember that it was a coloring book that dragged me into the expo hall/hallway track. (And yes, during my latest trip around the expo hall, the O’Reilly booth was one of the first on my list.)
+        </p>
+
+        <h5>2. Prepare yourself for a deluge of new ideas</h5>
+        <p>
+          It’s far easier to be ready for new ideas while sitting at your desk, tea and notebook in hand, anticipating new challenges. When you’re traveling and feeling overloaded, learning can be difficult. At home, we’re likely to say “my brain is full,” and do whatever it takes to for us to come back to the problem fresher. At a conference, it rarely feels there is time and space to refresh. I’ve found that each time I attempt to push my understanding day-in-and-day-out for that length of time, I’m vulnerable to all-or-nothing thinking (when things are going well: “this is learning, and I’m doing great!”; once I see something confusing: ”ohno, I don’t even know how to approach this”).
+        </p>
+
+        <p>
+          I’ve found a few things I can do to ease this feeling:
+          <ul>
+            <li>
+              Think about what topics and technologies you’d like to learn, and evaluate how much background you have for each topic. While learning a bit about something new is a fantastic use of your conference time (remember, a lot of people go to conferences <a href=”https://twitter.com/housecor/status/891471910235758592”>to discover what they want to learn next</a>), the slightly disoriented “newb” feeling is a stressful one to sit with. It’s helpful to walk in the door saying “this might be hard for me, but I’m going anyway!”
+            </li>
+            <li>
+              Try to attend at least one event which you care about but have some mastery each day. You will retain more if you attend talks/events that you expect to have a range of personal difficulty levels. 
+            </li>
+            <li>
+              When you have a “know nothing” moment, remind yourself of an accomplishment. I have a whole folder of screenshots that remind me of times I’ve been resourceful or figured out a difficult problem. Having a handful of proud moments at the top of your mind can really help bring you back into growth-mindset when it starts to slip.
+            </li>
+          </ul>
+        </p>
+
+        <h5>3. Make (purposefully low-pressure) conversation</h5>
+        <p>
+          Everyone knows a few people that they enjoy running into, so aspire to be that person! Consider opening a conversation by asking what a person looks forward to at the conference as a low-pressure alternative to “tell me about you [your career]”. Regardless of their work/life situation, or how ready they feel to give an elevator pitch, everyone comes to a conference excited about <em>something</em>. By putting other people at ease, you’ll have more candid conversations and everyone will walk away with a smile on their face.
+        </p>
+
+        <h5>4. Maintain routines</h5>
+        <p>
+          Even the small adjustments you make to be comfortable in your daily life can make a big difference. Think about your typical food needs (I’m usually carrying a sandwich bag of nuts), comfort items (falling asleep is so much easier with an eye mask), and any self-care gear that you use regularly. I keep a list and update it each time I realize that, yes, I did forget something. If you’re starting your own list, you can use <a href="http://www.whatamiforgetting.com/" target="_blank">this</a> as inspiration.
+        </p>
+
+        <h5>5. Keep a wish list</h5>
+        <p>
+          I take note of what I wished I had brought or saw other people bring and thought “that’s genius”.
+        </p>
+
+        <p>
+          Next time, I plan to bring: 
+          <ul>
+            <li>
+              A surge strip for recharging at the conference center. What a great way to avoid the wall-squat-near-a-charger problem and make new (similarly charger-hungry) friends.
+            </li>
+            <li>
+              A set of contact cards. I’ve found that it’s easier to remember someone if you have a card to scribble a few words about what you talked to them about / when to connect with them.
+            </li>
+            <li>
+              A small notepad or syncing phone app. Many I have talked to kept notes on talks, conversations, and any of their reactions they expect to wish to revisit.
+            </li>
+          </ul>
+        </p>
+
+        <h5>6. Prepare for the possible “con-drop”</h5>
+        <p>
+          When you attend a conference, you’re interrupting your “normal” and replacing it with a deluge of new ideas, opportunities, and the sense that we have to be “on” as much as possible. There are many reasons to feel overwhelmed, especially if you start to see practices at work or in yourself that you now realize aren’t ideal but don’t feel you can implement new patterns. It’s important to think about the space you need for yourself after this kind of experience.
+        </p>
+
+        <p>
+          I wish you a happy and well-prepared conference season!
+        </p>
+        ]]>
+		</content>
+	</entry>
+	<entry>
+		<title type="html">
+			<![CDATA[Make a Javascript Console in Your Editor & Avoid Context-switching]]>
+		</title>
+		<link href="http://veronicahanus.com/blog/2018/02/20/js-console-in-sublime.html"/>
+		<updated>2018-02-20T18:30:02Z</updated>
+		<id>http://veronicahanus.com/blog/2018/02/20/js-console-in-sublime.html</id>
 		<!--<content type="html">
 			<![CDATA[]]>
 		</content>-->
-	</entry>
 	<entry>
 		<title type="html">
 			<![CDATA[Writing READMEs that will make future you happy]]>
